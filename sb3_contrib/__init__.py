@@ -4,7 +4,7 @@ from sb3_contrib.ars import ARS
 from sb3_contrib.ppo_mask import MaskablePPO
 from sb3_contrib.ppo_recurrent import RecurrentPPO
 from sb3_contrib.qrdqn import QRDQN
-from sb3_contrib.sacd import SACD
+from sb3_contrib.sacd import SACD, ExploreGoSACD
 from sb3_contrib.tqc import TQC
 from sb3_contrib.trpo import TRPO
 
@@ -21,4 +21,5 @@ __all__ = [
     "TQC",
     "TRPO",
     "SACD",
+    "ExploreGoSACD"
 ]
